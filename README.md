@@ -22,9 +22,9 @@ This project demonstrates how to use an **Arduino** with a **74HC595 shift regis
 
 ### Circuit Diagram:
 - **74HC595 Shift Register**:
-  - **Pin 14 **: Connected to Arduino `DATA_PIN` (Pin 4).
-  - **Pin 11 **: Connected to Arduino `CLOCK_PIN` (Pin 6).
-  - **Pin 12 **: Connected to Arduino `LATCH_PIN` (Pin 5).
+  - **Pin 14**: Connected to Arduino `DATA_PIN` (Pin 4).
+  - **Pin 11**: Connected to Arduino `CLOCK_PIN` (Pin 6).
+  - **Pin 12**: Connected to Arduino `LATCH_PIN` (Pin 5).
   - **Pins 15 to 7 (Q0 to Q7)**: Connected to the LEDs, each through a 330 ohm resistor to **VCC**.
 
 ### Pinout of the Arduino:
